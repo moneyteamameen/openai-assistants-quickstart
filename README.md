@@ -14,7 +14,14 @@ git clone https://github.com/openai/openai-assistants-quickstart.git
 cd openai-assistants-quickstart
 ```
 
-### 2. Set your [OpenAI API key](https://platform.openai.com/api-keys)
+### 2. Create and activate Conda environment
+
+```shell
+conda create -n openai-assistant python=3.10
+conda activate openai-assistant
+```
+
+### 3. Set your [OpenAI API key](https://platform.openai.com/api-keys)
 
 ```shell
 export OPENAI_API_KEY="sk_..."
@@ -22,19 +29,19 @@ export OPENAI_API_KEY="sk_..."
 
 (or in `.env.example` and rename it to `.env`).
 
-### 3. Install dependencies
+### 4. Install dependencies
 
 ```shell
 npm install
 ```
 
-### 4. Run
+### 5. Run
 
 ```shell
 npm run dev
 ```
 
-### 5. Navigate to [http://localhost:3000](http://localhost:3000).
+### 6. Navigate to [http://localhost:3000](http://localhost:3000).
 
 ## Deployment
 
